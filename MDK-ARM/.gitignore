@@ -1,0 +1,39 @@
+# VSCode 配置
+.vscode/
+/.settings/
+
+# 忽略整个CMSIS库目录
+.cmsis/
+
+# EIDE 相关
+/.eide/log
+/.eide.usr.ctx.json
+*.ept
+*.eide-template
+
+# MDK-ARM 编译输出、中间文件
+/build/
+/bin/
+/obj/
+/out/
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.dep
+*.crf
+*.o
+*.d
+*.sct.bak
+*.i
+*.htm
+.eide
+
+# 其他杂项
+*.uvgui*
+*.uvoptx
+*.uvprojx.bak
+.DS_Store
+*.code-workspace
+.clang-format
